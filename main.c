@@ -1,5 +1,5 @@
 #include "stm32f4xx.h"                  // Device header
-static volatile int pin =14;
+static volatile int pin =14; // define pin variable
 static volatile int i;
 void EXTI0_IRQHandler(void); // define interrupt handler
 
